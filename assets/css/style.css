@@ -1,0 +1,218 @@
+
+
+
+body{
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+section{
+    clear: both;
+}
+
+/******* nav header all pages css ********/
+nav{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    /* border: 1pt solid #ccc; */
+}
+.navfloat{
+    width: 960px;
+    margin: 0 auto;
+}
+.pghdr-name{
+    background-color: #4aaaa5; 
+    color: white;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pghdr-links{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    float: right;
+    padding-top: 50px;
+    margin-right: 10%;
+}
+.pghdr-links 
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ccc;
+}
+a:hover{
+    text-decoration: underline;
+    padding: 10px;
+    color: #666;
+}
+
+/******** content section basic css ********/
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+/* .container hr{
+    border: 1pt solid #ccc;
+    margin-bottom: 30px;
+} */
+.container .portrait{
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: left;
+    
+}
+.containerfloat{
+    padding: 20px;
+    /* border: 1pt solid #ccc; */
+}
+
+.cnt-hdr{
+    color: #4aaaa5;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cnt-body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #666;
+    line-height: 2em;
+}
+.cnt-body input{
+    width: 100%;
+    height: 2em;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    /* padding: 16px 32px; */
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    /* vertical-align: middle; */
+    line-height: 2em;
+}
+table{
+    width: 100%;
+}
+td{
+    margin: 0 auto;
+    width: 33.33%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.container .portfolio-card{
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .portcardwrap{
+    position: relative;
+    width: 275px;
+}
+.container .portcardtext{
+    position: absolute;
+    bottom:4%;
+    left: 0;
+    background-color: #4aaaa5; 
+    color: white;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    width: 245px;
+}
+
+
+
+/******** footer section basic css ********/
+footer{
+    width: 100%;
+}
+.footerfloat{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #666;
+    border-top: 2pt solid #4aaaa5;
+    text-align: center;
+    color: #ddd;
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+    body{
+        width: 100%;
+        background-color: white;
+        margin-right: -10px; 
+    }
+    nav{
+        width: 100%;
+        height:auto;
+    }
+    .navfloat{
+        width:100%;
+        clear: both;
+    }
+    .pghdr-name{
+        width: 100%;
+        text-align: center;
+        padding-right: 50px;
+    }
+    .pghdr-links{
+        width: 100%;
+        text-align:center;
+        height: 100px;
+        margin-right: 0px;
+    }
+    .container{
+        width:100%;
+        margin-left: 5%;
+    }
+    footer{
+        width: 100%;
+        margin-right: -10px; 
+    }
+    .footerfloat{
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px){
+    body{
+        width: 100%;
+        background-color: white;
+    }
+    nav{
+        width: 100%;
+        height:auto;
+        background-color: white;
+    }
+    .navfloat{
+        width:100%;
+        background-color: white;
+    }
+    .container{
+        width:100%;
+        /* background-color: yellow; */
+        margin-top: 75px;
+    }
+    footer{
+        width: 100%;
+    }
+    .footerfloat{
+        width: 100%;
+    }
+}
+
+
